@@ -24,12 +24,15 @@
   <parent>
     <groupId>org.everit.config</groupId>
     <artifactId>org.everit.config.oss</artifactId>
-    <version>7.2.0</version>
+    <version>7.3.0</version>
   </parent>
 
   <groupId>org.everit.osgi.dev</groupId>
   <artifactId>org.everit.osgi.dev.equinox.starter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+
+  <name>Everit - Equinox Custom Starter</name>
+  <description>An Equinox starter that registers a shutdown hook to stop the framework properly.</description>
 
   <properties>
     <projectpath>equinox-starter</projectpath>
@@ -92,6 +95,7 @@
       <groupId>org.eclipse.tycho</groupId>
       <artifactId>org.eclipse.osgi</artifactId>
       <version>3.10.100.v20150529-1857</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
