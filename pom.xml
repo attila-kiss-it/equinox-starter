@@ -29,7 +29,7 @@
 
   <groupId>org.everit.osgi.dev</groupId>
   <artifactId>org.everit.osgi.dev.equinox.starter</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>Everit - Equinox Custom Starter</name>
   <description>An Equinox starter that registers a shutdown hook to stop the framework properly.</description>
